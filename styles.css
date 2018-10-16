@@ -14,11 +14,6 @@ body {
 	height: 100vh;
 }
 
-.right-side {
-	display: grid;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
-}
-
 .profile-pic {
 	display: grid;
 	grid-row: 1 / span 1;
@@ -42,4 +37,15 @@ body {
 .ambulence {
 	display: grid;
 	grid-row: 5 / span 1;
+}
+
+.right-side {
+	display: grid;
+	grid-template-rows: 1fr 600px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.current-day {
+	display: grid;
+	grid-column: 1 / span 2;
 }
