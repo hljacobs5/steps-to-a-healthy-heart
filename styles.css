@@ -139,7 +139,7 @@ button {
 
 .bpm-chart {
 	width: 400px;
-	height: 375px;
+	height: 400px;
 	display: grid;
 	grid-row: 3 / span 1;
 }
