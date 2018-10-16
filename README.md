@@ -1,6 +1,3 @@
 # steps-to-a-healthy-heart
 
-<p align="center">
-  <img src="/Users/laura/turing_folder/mod3/UI-challenge/steps-to-a-healthy-heart/images/desktopview">
-  <img src="/Users/laura/turing_folder/mod3/UI-challenge/steps-to-a-healthy-heart/images/mobileview">
-</p>
+![alt text](https://github.com/hljacobs5/steps-to-a-healthy-heart/blob/master/images/mobileview.png)
