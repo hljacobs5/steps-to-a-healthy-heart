@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+}
+
+body {
+	display: grid;
+	grid-template-columns: 275px 1fr;
+}
+
+.left-side {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	border: solid 3px;
+	height: 100vh;
+}
+
+.right-side {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.profile-pic {
+	display: grid;
+	grid-row: 1 / span 1;
+}
+
+.emergency-contact {
+	display: grid;
+	grid-row: 2 / span 1;
+}
+
+.medication {
+	display: grid;
+	grid-row: 3 / span 1;
+}
+
+.physician {
+	display: grid;
+	grid-row: 4 / span 1;
+}
+
+.ambulence {
+	display: grid;
+	grid-row: 5 / span 1;
+}
