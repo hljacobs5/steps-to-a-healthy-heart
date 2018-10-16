@@ -1,12 +1,21 @@
 * {
 	margin: 0;
+	font-family: 'Quicksand', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
 	display: grid;
 	grid-template-columns: 275px 1fr;
+	width: 100%;
 }
-
+h1 {
+	text-align: center;
+}
 .left-side {
 	display: grid;
 	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -69,6 +78,7 @@ body {
 }
 
 .current-day {
+	text-align: center;
 	display: grid;
 	grid-column: 1 / span 2;
 }
@@ -91,6 +101,7 @@ button {
 
 .calendar {
 	height: 200px;
+	margin-left: 50px;
 	grid-column: 3 / span 1;
 }
 
@@ -116,10 +127,31 @@ button {
 }
 
 .circle {
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/500px-Circle_-_black_simple.svg.png');
+	background-size: 150px;
+	background-position: center; 
+	background-repeat: no-repeat;
 	height: 150px;
+	width: 300px;
+}
+
+.circle-p {
+	margin-left: 115px;
+	margin-top: 60px;
+}
+
+.circle-heart {
+	margin-left: 125px;
+	margin-top: 60px;
 }
 
 .heart {
+	background-image: url('./images/heart.svg');
+	background-size: 150px;
+	background-position: center; 
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 300px;
 	height: 150px;
 }
 
@@ -146,4 +178,12 @@ button {
 
 .chart {
 	grid-row: 3 / span 1;
+}
+
+.title {
+	font-size: 75px;
+}
+
+.title-body {
+	margin-bottom: 50px;
 }
