@@ -97,6 +97,8 @@ button {
 	justify-content: center;
 	height: 50px;
 	width: 50px;
+	border: none;
+	font-size: 20px;
 }
 
 .calendar {
@@ -138,6 +140,10 @@ button {
 .circle-p {
 	margin-left: 115px;
 	margin-top: 60px;
+}
+
+.media {
+	display: none;
 }
 
 .circle-heart {
@@ -186,4 +192,57 @@ button {
 
 .title-body {
 	margin-bottom: 50px;
+}
+
+@media screen and (max-width: 450px) {
+
+.left-side, 
+.profile-pic, 
+.wallace, 
+.emergency-contact, 
+.medication, 
+.physician, 
+.ambulence, 
+.right-side, 
+.current-day, 
+.ambulence-pic, 
+.emergency-button, 
+.calendar, 
+.steps, 
+.minutes, 
+.bpm, 
+.circle-p, 
+.circle-heart, 
+.heart, 
+.minute-chart, 
+.bpm-chart, 
+.chart, 
+.title, 
+.title-body, 
+.step-chart,
+.circle {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+.media {
+	font-size: 15px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+  } 
+
+.media-buttons {
+	display: inline-flex;
+	width: 100%;
+}
+
+.goals, .profile {
+	border: solid 3px;
+	width: 50rem;
+}
 }
